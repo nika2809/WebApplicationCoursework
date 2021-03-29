@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace WAD.ProjectManagement._7681.Models
 {
-    public class Registration
+    public class Registration : IValidatableObject
     {
-        public class RegisterModel : IValidatableObject
-        {
+            [Required]
+            [Range(0, int.MaxValue)]
+             public int RegistrationID { get; set; }
+
             [Required]
             public string Login { get; set; }
 
@@ -30,4 +32,4 @@ namespace WAD.ProjectManagement._7681.Models
             }
         }
     }
-}
+

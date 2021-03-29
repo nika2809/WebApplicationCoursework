@@ -10,6 +10,10 @@ namespace WAD.ProjectManagement._7681.Models
     {
         [Required]
         [Range(0, int.MaxValue)]
+        public int UsetID { get; set; }
+
+        [Required]
+        [Range(0, int.MaxValue)]
 
         public int UserID { get; set; }
 

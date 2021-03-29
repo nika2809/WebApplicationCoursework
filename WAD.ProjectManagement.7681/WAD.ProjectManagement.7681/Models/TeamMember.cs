@@ -11,7 +11,7 @@ namespace WAD.ProjectManagement._7681.Models
         [Required]
         [Range(0, int.MaxValue)]
 
-        public int MemberID { get; set; }
+        public int TeamMemberID { get; set; }
 
         [Required]
         [MinLength(2)]
