@@ -11,7 +11,7 @@ namespace ProjectManagementTool.DAL
     {
         public ProjectManagementDBContext(DbContextOptions<ProjectManagementDBContext> options) : base(options)
         {
-
+            Database.EnsureCreated();
         }
 
         public virtual DbSet<Project> Projects { get; set; }

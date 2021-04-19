@@ -21,6 +21,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ProjectDetails)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartTime)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -35,6 +38,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ProjectDetails)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartTime)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ProjectID">Edit</a> |

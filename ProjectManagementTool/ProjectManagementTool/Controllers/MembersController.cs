@@ -54,7 +54,7 @@ namespace ProjectManagementTool.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MemberID,FirstName,LastName,PhoneNumber,Email")] Member member)
+        public async Task<IActionResult> Create([Bind("MemberID,FirstName,LastName,DateOfBirth,PhoneNumber,Email")] Member member)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace ProjectManagementTool.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MemberID,FirstName,LastName,PhoneNumber,Email")] Member member)
+        public async Task<IActionResult> Edit(int id, [Bind("MemberID,FirstName,LastName,DateOfBirth,PhoneNumber,Email")] Member member)
         {
             if (id != member.MemberID)
             {

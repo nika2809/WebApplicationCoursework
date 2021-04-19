@@ -8740,24 +8740,28 @@
     ]
   },
   "packageFolders": {
-    "E:\\Users\\00007681\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\peter\\ZDrive\\00007681\\Desktop\\WAD.Coursework\\ProjectManagementTool\\ProjectManagementTool\\ProjectManagementTool.csproj",
+      "projectUniqueName": "D:\\Courseworks\\WAD\\ProjectManagementTool\\ProjectManagementTool\\ProjectManagementTool.csproj",
       "projectName": "ProjectManagementTool",
-      "projectPath": "\\\\peter\\ZDrive\\00007681\\Desktop\\WAD.Coursework\\ProjectManagementTool\\ProjectManagementTool\\ProjectManagementTool.csproj",
-      "packagesPath": "E:\\Users\\00007681\\.nuget\\packages\\",
-      "outputPath": "\\\\peter\\ZDrive\\00007681\\Desktop\\WAD.Coursework\\ProjectManagementTool\\ProjectManagementTool\\obj\\",
+      "projectPath": "D:\\Courseworks\\WAD\\ProjectManagementTool\\ProjectManagementTool\\ProjectManagementTool.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Courseworks\\WAD\\ProjectManagementTool\\ProjectManagementTool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "E:\\Users\\00007681\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8768,6 +8772,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -8779,6 +8784,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -8821,7 +8827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

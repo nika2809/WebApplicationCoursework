@@ -54,7 +54,7 @@ namespace ProjectManagementTool.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProjectID,ProjectName,CooperationOrganization,ProjectDetails")] Project project)
+        public async Task<IActionResult> Create([Bind("ProjectID,ProjectName,CooperationOrganization,ProjectDetails,StartTime,EndTime")] Project project)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace ProjectManagementTool.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProjectID,ProjectName,CooperationOrganization,ProjectDetails")] Project project)
+        public async Task<IActionResult> Edit(int id, [Bind("ProjectID,ProjectName,CooperationOrganization,ProjectDetails,StartTime,EndTime")] Project project)
         {
             if (id != project.ProjectID)
             {

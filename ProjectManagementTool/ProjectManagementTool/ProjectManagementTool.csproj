@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20210419130558_Project_Start_Time_Added.cs" />
+    <Compile Remove="Migrations\20210419130558_Project_Start_Time_Added.Designer.cs" />
+    <Compile Remove="Migrations\20210419140452_Member_Date_Of_Birth_Added.cs" />
+    <Compile Remove="Migrations\20210419140452_Member_Date_Of_Birth_Added.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11" />

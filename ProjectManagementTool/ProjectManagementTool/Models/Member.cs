@@ -22,6 +22,10 @@ namespace ProjectManagementTool.Models
         public string LastName { get; set; }
 
         [Required]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime DateOfBirth { get; set; }
+
+        [Required]
         [Phone]
         public string PhoneNumber { get; set; }
 
@@ -29,6 +33,9 @@ namespace ProjectManagementTool.Models
         [EmailAddress]
         public string Email { get; set; }
 
+        
       public virtual ICollection<Project> Projects { get; set; }
     }
+
+
 }

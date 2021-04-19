@@ -23,6 +23,13 @@ namespace ProjectManagementTool.Models
         [MinLength(2)]
         public string ProjectDetails { get; set; }
 
+        [Required]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime StartTime { get; set; }
+
+        [Required]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime EndTime { get; set; }
 
     }
 }
