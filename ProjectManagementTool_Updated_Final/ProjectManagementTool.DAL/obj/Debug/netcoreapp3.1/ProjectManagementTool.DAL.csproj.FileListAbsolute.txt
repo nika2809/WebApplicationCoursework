@@ -1,0 +1,9 @@
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\obj\Debug\netcoreapp3.1\ProjectManagementTool.DAL.csprojAssemblyReference.cache
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\obj\Debug\netcoreapp3.1\ProjectManagementTool.DAL.AssemblyInfoInputs.cache
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\obj\Debug\netcoreapp3.1\ProjectManagementTool.DAL.AssemblyInfo.cs
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\obj\Debug\netcoreapp3.1\ProjectManagementTool.DAL.csproj.CoreCompileInputs.cache
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\bin\Debug\netcoreapp3.1\ProjectManagementTool.DAL.deps.json
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\bin\Debug\netcoreapp3.1\ProjectManagementTool.DAL.dll
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\bin\Debug\netcoreapp3.1\ProjectManagementTool.DAL.pdb
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\obj\Debug\netcoreapp3.1\ProjectManagementTool.DAL.dll
+D:\Courseworks\WAD\ProjectManagementTool\ProjectManagementTool.DAL\obj\Debug\netcoreapp3.1\ProjectManagementTool.DAL.pdb
